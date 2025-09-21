@@ -1,0 +1,18 @@
+/* Make the productcard class */
+.card{ 
+    width: 100%; 
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    
+    transition: transform 0.25;
+    background-color: aquamarine;
+}
+
+/* fancy card class */
+.fancy-border{
+    border: 2px solid red;
+    box-shadow: 0 2px 4px rgba(red, green, blue, alpha);
+
+}
